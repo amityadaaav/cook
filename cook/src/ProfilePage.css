@@ -1,0 +1,128 @@
+
+.container125 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+.button123 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-mode,
+.background12 {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-title9,
+.form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.edit-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.register-button1,
+.register-button2,
+.register-button20 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-button1 {
+  background-color: #4caf50;
+  color: white;
+}
+
+.register-button2 {
+  background-color: #f44336;
+  color: white;
+}
+
+.register-button20 {
+  background-color: green;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.background12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 30px;
+}
+
+.background12 img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.back {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Responsive CSS - Adjust based on your design requirements */
+@media screen and (max-width: 480px) {
+  .edit-mode,
+  .background12 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Add more media queries for other screen sizes if needed */
